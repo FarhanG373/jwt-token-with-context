@@ -1,0 +1,54 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(114, 109, 211);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(114, 109, 211, 1) 0%,
+    rgba(74, 193, 190, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(114, 109, 211, 1) 0%,
+    rgba(74, 193, 190, 1) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(114, 109, 211, 1) 0%,
+    rgba(74, 193, 190, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#726dd3", endColorstr="#4ac1be", GradientType=1);
+
+  .logo {
+    img {
+      height: 40px;
+    }
+  }
+
+  ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    li {
+      margin-right: 20px;
+
+      a,
+      .logOut {
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+        background-color: transparent;
+        border: 0px;
+        cursor: pointer;
+        &:hover {
+          color: #f1f1f1;
+        }
+      }
+    }
+  }
+}
